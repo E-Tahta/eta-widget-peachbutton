@@ -44,7 +44,7 @@ Rectangle {
                 setIcon("eta-peach")
             }
             onClicked: {
-                peachhybrid.fakekey()
+                peachbutton.fakekey()
             }
         }
     }
