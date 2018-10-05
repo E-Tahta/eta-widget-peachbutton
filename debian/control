@@ -1,0 +1,15 @@
+Source: eta-widget-peachbutton
+Section: kde
+Priority: optional
+Maintainer: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+Build-Depends: debhelper (>= 9), kdebase-workspace-dev, cmake, libxtst-dev
+Standards-Version: 3.9.6
+Homepage: http://pardus.org.tr
+
+Package: eta-widget-peachbutton
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, eta-peach
+Description: Şeftali kwin servisini kullanan gerec.
+ Açılan pencereleri geniş bir panelden kontrol eden 
+ Şeftali (eta-peach) kwin servisini çağırmaya yarayan
+ plasma gereci.

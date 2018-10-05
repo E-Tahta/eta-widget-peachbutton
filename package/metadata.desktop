@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Peach Button
+Comment=Triggers Peach window switcher
+
+Type=Service
+ServiceTypes=Plasma/Applet
+Icon=
+
+X-Plasma-MainScript=ui/main.qml
+X-KDE-Library=peach_button_library
+X-KDE-PluginInfo-Name=tr.org.etap.peachbutton
+X-KDE-PluginInfo-Category=Windows and Tasks
+X-KDE-PluginInfo-Author=Yunusemre Şentürk      
+X-KDE-PluginInfo-Email=yunusemre.senturk@pardus.org.tr
+X-KDE-PluginInfo-Version=1.1
+X-KDE-PluginInfo-Website=https://etap.org.tr               
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ServiceTypes=Plasma/Applet
